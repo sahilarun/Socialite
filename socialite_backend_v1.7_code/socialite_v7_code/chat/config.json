@@ -1,0 +1,30 @@
+{
+  "port":4000,
+  "db":{
+    "live":{
+      "host": "localhost",
+      "user": "########",
+      "password": "######",
+      "database": "#####"
+    },
+    "dev":{
+      "host": "localhost",
+      "user": "####",
+      "password": "######",
+      "database": "#######"
+    }
+  },
+  "encryptionKey":"bbC4H19lsVbQDfakxc456rtNMQdd0FloL",
+  "storageUrl":"https://[bucket_name######].s3.amazonaws.com",
+  "pushNotification":{ 
+      "databaseURL": "https://###########.firebaseio.com"
+  },
+  "voipNotification":{
+    "key": "cert/AuthKey_#######.p8", 
+    "keyId": "#######",
+    "teamId": "###########",
+    "bundleId":"com.#####.app"
+  }
+
+  
+}

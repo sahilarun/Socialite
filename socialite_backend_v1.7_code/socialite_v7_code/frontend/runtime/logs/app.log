@@ -1,0 +1,2714 @@
+2020-08-17 17:46:12 [::1][4][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-08-17 17:46:09 [::1][4][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-frontend' => '9a8c343c8e43b7c74396b28157f2865529bbf05de8886623e79df4583eb1241ba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[4,\"wslEADJAxDux582Y6TsIUvyuiLO38LiX\",2592000]\";}'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_identity-frontend=9a8c343c8e43b7c74396b28157f2865529bbf05de8886623e79df4583eb1241ba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22wslEADJAxDux582Y6TsIUvyuiLO38LiX%22%2C2592000%5D%22%3B%7D; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '63959'
+    'REDIRECT_URL' => '/tiktok/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1597686363.937
+    'REQUEST_TIME' => 1597686363
+]
+2020-08-17 17:48:38 [::1][4][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/banner/thumb/15947528305186_20200714_185350_c38116ffb6.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/banner/...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-08-17 17:48:37 [::1][4][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-frontend' => '9a8c343c8e43b7c74396b28157f2865529bbf05de8886623e79df4583eb1241ba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[4,\"wslEADJAxDux582Y6TsIUvyuiLO38LiX\",2592000]\";}'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-frontend' => '1qq7c8cd5bn6d8jr0jvvajrr9v'
+    'advanced-backend' => 'di1gnj7c9u39pculg3tj9i6r0o'
+    '_csrf-backend' => '5dd9dbde15222ad09632ba952a50104344448e5620c9c2514b4215fcf84f9e88a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_ktFntRBETLQsC-IugPnYRjUXn9u5YQz\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=banner%2Fupdate&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_identity-frontend=9a8c343c8e43b7c74396b28157f2865529bbf05de8886623e79df4583eb1241ba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22wslEADJAxDux582Y6TsIUvyuiLO38LiX%22%2C2592000%5D%22%3B%7D; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-frontend=1qq7c8cd5bn6d8jr0jvvajrr9v; advanced-backend=di1gnj7c9u39pculg3tj9i6r0o; _csrf-backend=5dd9dbde15222ad09632ba952a50104344448e5620c9c2514b4215fcf84f9e88a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_ktFntRBETLQsC-IugPnYRjUXn9u5YQz%22%3B%7D'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '64028'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/banner/thumb/15947528305186_20200714_185350_c38116ffb6.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/banner/thumb/15947528305186_20200714_185350_c38116ffb6.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1597686517.65
+    'REQUEST_TIME' => 1597686517
+]
+2020-08-17 17:48:38 [::1][4][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/banner/thumb/15947528305186_20200714_185350_c38116ffb6.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/banner/...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-08-17 17:48:38 [::1][4][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-frontend' => '9a8c343c8e43b7c74396b28157f2865529bbf05de8886623e79df4583eb1241ba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[4,\"wslEADJAxDux582Y6TsIUvyuiLO38LiX\",2592000]\";}'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-frontend' => '1qq7c8cd5bn6d8jr0jvvajrr9v'
+    'advanced-backend' => 'di1gnj7c9u39pculg3tj9i6r0o'
+    '_csrf-backend' => '5dd9dbde15222ad09632ba952a50104344448e5620c9c2514b4215fcf84f9e88a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_ktFntRBETLQsC-IugPnYRjUXn9u5YQz\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=banner%2Fupdate&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_identity-frontend=9a8c343c8e43b7c74396b28157f2865529bbf05de8886623e79df4583eb1241ba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22wslEADJAxDux582Y6TsIUvyuiLO38LiX%22%2C2592000%5D%22%3B%7D; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-frontend=1qq7c8cd5bn6d8jr0jvvajrr9v; advanced-backend=di1gnj7c9u39pculg3tj9i6r0o; _csrf-backend=5dd9dbde15222ad09632ba952a50104344448e5620c9c2514b4215fcf84f9e88a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_ktFntRBETLQsC-IugPnYRjUXn9u5YQz%22%3B%7D'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '64029'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/banner/thumb/15947528305186_20200714_185350_c38116ffb6.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/banner/thumb/15947528305186_20200714_185350_c38116ffb6.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1597686518.81
+    'REQUEST_TIME' => 1597686518
+]
+2020-08-17 17:48:40 [::1][4][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/banner/thumb/15947528511788_20200714_185411_ab94975507.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/banner/...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-08-17 17:48:40 [::1][4][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-frontend' => '9a8c343c8e43b7c74396b28157f2865529bbf05de8886623e79df4583eb1241ba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[4,\"wslEADJAxDux582Y6TsIUvyuiLO38LiX\",2592000]\";}'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-frontend' => '1qq7c8cd5bn6d8jr0jvvajrr9v'
+    'advanced-backend' => 'di1gnj7c9u39pculg3tj9i6r0o'
+    '_csrf-backend' => '5dd9dbde15222ad09632ba952a50104344448e5620c9c2514b4215fcf84f9e88a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_ktFntRBETLQsC-IugPnYRjUXn9u5YQz\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=banner'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_identity-frontend=9a8c343c8e43b7c74396b28157f2865529bbf05de8886623e79df4583eb1241ba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22wslEADJAxDux582Y6TsIUvyuiLO38LiX%22%2C2592000%5D%22%3B%7D; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-frontend=1qq7c8cd5bn6d8jr0jvvajrr9v; advanced-backend=di1gnj7c9u39pculg3tj9i6r0o; _csrf-backend=5dd9dbde15222ad09632ba952a50104344448e5620c9c2514b4215fcf84f9e88a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_ktFntRBETLQsC-IugPnYRjUXn9u5YQz%22%3B%7D'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '64025'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/banner/thumb/15947528511788_20200714_185411_ab94975507.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/banner/thumb/15947528511788_20200714_185411_ab94975507.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1597686520.695
+    'REQUEST_TIME' => 1597686520
+]
+2020-08-17 17:48:41 [::1][4][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/banner/thumb/15947528305186_20200714_185350_c38116ffb6.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/banner/...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-08-17 17:48:40 [::1][4][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-frontend' => '9a8c343c8e43b7c74396b28157f2865529bbf05de8886623e79df4583eb1241ba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[4,\"wslEADJAxDux582Y6TsIUvyuiLO38LiX\",2592000]\";}'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-frontend' => '1qq7c8cd5bn6d8jr0jvvajrr9v'
+    'advanced-backend' => 'di1gnj7c9u39pculg3tj9i6r0o'
+    '_csrf-backend' => '5dd9dbde15222ad09632ba952a50104344448e5620c9c2514b4215fcf84f9e88a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_ktFntRBETLQsC-IugPnYRjUXn9u5YQz\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=banner'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_identity-frontend=9a8c343c8e43b7c74396b28157f2865529bbf05de8886623e79df4583eb1241ba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22wslEADJAxDux582Y6TsIUvyuiLO38LiX%22%2C2592000%5D%22%3B%7D; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-frontend=1qq7c8cd5bn6d8jr0jvvajrr9v; advanced-backend=di1gnj7c9u39pculg3tj9i6r0o; _csrf-backend=5dd9dbde15222ad09632ba952a50104344448e5620c9c2514b4215fcf84f9e88a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_ktFntRBETLQsC-IugPnYRjUXn9u5YQz%22%3B%7D'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '64024'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/banner/thumb/15947528305186_20200714_185350_c38116ffb6.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/banner/thumb/15947528305186_20200714_185350_c38116ffb6.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1597686520.694
+    'REQUEST_TIME' => 1597686520
+]
+2020-08-17 17:48:41 [::1][4][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/banner/thumb/15947528706917_20200714_185430_bbfba172eb.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/banner/...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-08-17 17:48:40 [::1][4][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-frontend' => '9a8c343c8e43b7c74396b28157f2865529bbf05de8886623e79df4583eb1241ba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[4,\"wslEADJAxDux582Y6TsIUvyuiLO38LiX\",2592000]\";}'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-frontend' => '1qq7c8cd5bn6d8jr0jvvajrr9v'
+    'advanced-backend' => 'di1gnj7c9u39pculg3tj9i6r0o'
+    '_csrf-backend' => '5dd9dbde15222ad09632ba952a50104344448e5620c9c2514b4215fcf84f9e88a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"_ktFntRBETLQsC-IugPnYRjUXn9u5YQz\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=banner'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_identity-frontend=9a8c343c8e43b7c74396b28157f2865529bbf05de8886623e79df4583eb1241ba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22wslEADJAxDux582Y6TsIUvyuiLO38LiX%22%2C2592000%5D%22%3B%7D; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-frontend=1qq7c8cd5bn6d8jr0jvvajrr9v; advanced-backend=di1gnj7c9u39pculg3tj9i6r0o; _csrf-backend=5dd9dbde15222ad09632ba952a50104344448e5620c9c2514b4215fcf84f9e88a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22_ktFntRBETLQsC-IugPnYRjUXn9u5YQz%22%3B%7D'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '64030'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/banner/thumb/15947528706917_20200714_185430_bbfba172eb.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/banner/thumb/15947528706917_20200714_185430_bbfba172eb.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1597686520.747
+    'REQUEST_TIME' => 1597686520
+]
+2020-09-21 16:15:55 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/promotional-banner/thumb/15947982596718_20200715_073059_4b315025d2.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/promoti...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-09-21 16:15:53 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_ga_HR0Q6582E9' => 'GS1.1.1599374452.14.0.1599374452.0'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-frontend' => 'o0t0lk4ejs90q9pmh74fk576ds'
+    '_csrf-frontend' => '048ed94a97b45f532a2d2e7733e01425813b7bf5a05601d56a85f10a5d9d6884a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"_-fTzbUWpiLiCCK4m0JAsCgBJQvdRIDS\";}'
+    'advanced-backend' => 'g6gjs81obm33ucbgjkv0qr01tu'
+    '_csrf-backend' => 'b2de9f317cb98986117dd238e15af5be761c7c5f65bbb08f0b19196d24d0c91ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"mp9BlOdyqairAs72LSHno4BJTffEdlaY\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=promotional-banner'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _ga_HR0Q6582E9=GS1.1.1599374452.14.0.1599374452.0; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-frontend=o0t0lk4ejs90q9pmh74fk576ds; _csrf-frontend=048ed94a97b45f532a2d2e7733e01425813b7bf5a05601d56a85f10a5d9d6884a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22_-fTzbUWpiLiCCK4m0JAsCgBJQvdRIDS%22%3B%7D; advanced-backend=g6gjs81obm33ucbgjkv0qr01tu; _csrf-backend=b2de9f317cb98986117dd238e15af5be761c7c5f65bbb08f0b19196d24d0c91ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22mp9BlOdyqairAs72LSHno4BJTffEdlaY%22%3B%7D'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '53479'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/promotional-banner/thumb/15947982596718_20200715_073059_4b315025d2.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/promotional-banner/thumb/15947982596718_20200715_073059_4b315025d2.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1600704953.434
+    'REQUEST_TIME' => 1600704953
+]
+2020-09-21 16:15:55 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/promotional-banner/thumb/15947982972122_20200715_073137_26bcf6a092.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/promoti...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-09-21 16:15:53 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_ga_HR0Q6582E9' => 'GS1.1.1599374452.14.0.1599374452.0'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-frontend' => 'o0t0lk4ejs90q9pmh74fk576ds'
+    '_csrf-frontend' => '048ed94a97b45f532a2d2e7733e01425813b7bf5a05601d56a85f10a5d9d6884a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"_-fTzbUWpiLiCCK4m0JAsCgBJQvdRIDS\";}'
+    'advanced-backend' => 'g6gjs81obm33ucbgjkv0qr01tu'
+    '_csrf-backend' => 'b2de9f317cb98986117dd238e15af5be761c7c5f65bbb08f0b19196d24d0c91ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"mp9BlOdyqairAs72LSHno4BJTffEdlaY\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=promotional-banner'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _ga_HR0Q6582E9=GS1.1.1599374452.14.0.1599374452.0; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-frontend=o0t0lk4ejs90q9pmh74fk576ds; _csrf-frontend=048ed94a97b45f532a2d2e7733e01425813b7bf5a05601d56a85f10a5d9d6884a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22_-fTzbUWpiLiCCK4m0JAsCgBJQvdRIDS%22%3B%7D; advanced-backend=g6gjs81obm33ucbgjkv0qr01tu; _csrf-backend=b2de9f317cb98986117dd238e15af5be761c7c5f65bbb08f0b19196d24d0c91ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22mp9BlOdyqairAs72LSHno4BJTffEdlaY%22%3B%7D'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '53477'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/promotional-banner/thumb/15947982972122_20200715_073137_26bcf6a092.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/promotional-banner/thumb/15947982972122_20200715_073137_26bcf6a092.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1600704953.49
+    'REQUEST_TIME' => 1600704953
+]
+2020-09-21 16:15:55 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/promotional-banner/thumb/15947984093445_20200715_073329_fda748c500.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/promoti...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-09-21 16:15:53 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_ga_HR0Q6582E9' => 'GS1.1.1599374452.14.0.1599374452.0'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-frontend' => 'o0t0lk4ejs90q9pmh74fk576ds'
+    '_csrf-frontend' => '048ed94a97b45f532a2d2e7733e01425813b7bf5a05601d56a85f10a5d9d6884a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"_-fTzbUWpiLiCCK4m0JAsCgBJQvdRIDS\";}'
+    'advanced-backend' => 'g6gjs81obm33ucbgjkv0qr01tu'
+    '_csrf-backend' => 'b2de9f317cb98986117dd238e15af5be761c7c5f65bbb08f0b19196d24d0c91ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"mp9BlOdyqairAs72LSHno4BJTffEdlaY\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=promotional-banner'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _ga_HR0Q6582E9=GS1.1.1599374452.14.0.1599374452.0; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-frontend=o0t0lk4ejs90q9pmh74fk576ds; _csrf-frontend=048ed94a97b45f532a2d2e7733e01425813b7bf5a05601d56a85f10a5d9d6884a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22_-fTzbUWpiLiCCK4m0JAsCgBJQvdRIDS%22%3B%7D; advanced-backend=g6gjs81obm33ucbgjkv0qr01tu; _csrf-backend=b2de9f317cb98986117dd238e15af5be761c7c5f65bbb08f0b19196d24d0c91ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22mp9BlOdyqairAs72LSHno4BJTffEdlaY%22%3B%7D'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '53481'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/promotional-banner/thumb/15947984093445_20200715_073329_fda748c500.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/promotional-banner/thumb/15947984093445_20200715_073329_fda748c500.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1600704953.498
+    'REQUEST_TIME' => 1600704953
+]
+2020-09-21 16:15:55 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/promotional-banner/thumb/15947982810542_20200715_073121_3dc14ce730.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/promoti...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-09-21 16:15:53 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_ga_HR0Q6582E9' => 'GS1.1.1599374452.14.0.1599374452.0'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-frontend' => 'o0t0lk4ejs90q9pmh74fk576ds'
+    '_csrf-frontend' => '048ed94a97b45f532a2d2e7733e01425813b7bf5a05601d56a85f10a5d9d6884a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"_-fTzbUWpiLiCCK4m0JAsCgBJQvdRIDS\";}'
+    'advanced-backend' => 'g6gjs81obm33ucbgjkv0qr01tu'
+    '_csrf-backend' => 'b2de9f317cb98986117dd238e15af5be761c7c5f65bbb08f0b19196d24d0c91ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"mp9BlOdyqairAs72LSHno4BJTffEdlaY\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=promotional-banner'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _ga_HR0Q6582E9=GS1.1.1599374452.14.0.1599374452.0; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-frontend=o0t0lk4ejs90q9pmh74fk576ds; _csrf-frontend=048ed94a97b45f532a2d2e7733e01425813b7bf5a05601d56a85f10a5d9d6884a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22_-fTzbUWpiLiCCK4m0JAsCgBJQvdRIDS%22%3B%7D; advanced-backend=g6gjs81obm33ucbgjkv0qr01tu; _csrf-backend=b2de9f317cb98986117dd238e15af5be761c7c5f65bbb08f0b19196d24d0c91ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22mp9BlOdyqairAs72LSHno4BJTffEdlaY%22%3B%7D'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '53476'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/promotional-banner/thumb/15947982810542_20200715_073121_3dc14ce730.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/promotional-banner/thumb/15947982810542_20200715_073121_3dc14ce730.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1600704953.49
+    'REQUEST_TIME' => 1600704953
+]
+2020-09-21 16:15:55 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/promotional-banner/thumb/15947984002562_20200715_073320_ef03025228.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/promoti...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-09-21 16:15:54 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_ga_HR0Q6582E9' => 'GS1.1.1599374452.14.0.1599374452.0'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-frontend' => 'o0t0lk4ejs90q9pmh74fk576ds'
+    '_csrf-frontend' => '048ed94a97b45f532a2d2e7733e01425813b7bf5a05601d56a85f10a5d9d6884a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"_-fTzbUWpiLiCCK4m0JAsCgBJQvdRIDS\";}'
+    'advanced-backend' => 'g6gjs81obm33ucbgjkv0qr01tu'
+    '_csrf-backend' => 'b2de9f317cb98986117dd238e15af5be761c7c5f65bbb08f0b19196d24d0c91ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"mp9BlOdyqairAs72LSHno4BJTffEdlaY\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=promotional-banner'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _ga_HR0Q6582E9=GS1.1.1599374452.14.0.1599374452.0; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-frontend=o0t0lk4ejs90q9pmh74fk576ds; _csrf-frontend=048ed94a97b45f532a2d2e7733e01425813b7bf5a05601d56a85f10a5d9d6884a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22_-fTzbUWpiLiCCK4m0JAsCgBJQvdRIDS%22%3B%7D; advanced-backend=g6gjs81obm33ucbgjkv0qr01tu; _csrf-backend=b2de9f317cb98986117dd238e15af5be761c7c5f65bbb08f0b19196d24d0c91ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22mp9BlOdyqairAs72LSHno4BJTffEdlaY%22%3B%7D'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '53480'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/promotional-banner/thumb/15947984002562_20200715_073320_ef03025228.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/promotional-banner/thumb/15947984002562_20200715_073320_ef03025228.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1600704953.498
+    'REQUEST_TIME' => 1600704953
+]
+2020-09-26 16:47:09 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/user/thumb/15958712271473_20200727_173347_f5e1f76b0d.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/user/th...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-09-26 16:47:09 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_ga_HR0Q6582E9' => 'GS1.1.1599374452.14.0.1599374452.0'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-backend' => 'sp2rkpqg4svcqo0va6b054hkvr'
+    '_csrf-backend' => '62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=user%2Fview&id=3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _ga_HR0Q6582E9=GS1.1.1599374452.14.0.1599374452.0; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-backend=sp2rkpqg4svcqo0va6b054hkvr; _csrf-backend=62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH%22%3B%7D'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '62832'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/user/thumb/15958712271473_20200727_173347_f5e1f76b0d.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/user/thumb/15958712271473_20200727_173347_f5e1f76b0d.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1601138828.561
+    'REQUEST_TIME' => 1601138828
+]
+2020-09-26 16:48:25 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/user/thumb/15958712271473_20200727_173347_f5e1f76b0d.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/user/th...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-09-26 16:48:25 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_ga_HR0Q6582E9' => 'GS1.1.1599374452.14.0.1599374452.0'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-backend' => 'sp2rkpqg4svcqo0va6b054hkvr'
+    '_csrf-backend' => '62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH\";}'
+    'advanced-frontend' => '0jtgt08eklrpoijgc7d07vs77n'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=user%2Fview&id=3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _ga_HR0Q6582E9=GS1.1.1599374452.14.0.1599374452.0; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-backend=sp2rkpqg4svcqo0va6b054hkvr; _csrf-backend=62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH%22%3B%7D; advanced-frontend=0jtgt08eklrpoijgc7d07vs77n'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '62853'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/user/thumb/15958712271473_20200727_173347_f5e1f76b0d.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/user/thumb/15958712271473_20200727_173347_f5e1f76b0d.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1601138905.378
+    'REQUEST_TIME' => 1601138905
+]
+2020-09-26 16:52:26 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/user/thumb/15958712271473_20200727_173347_f5e1f76b0d.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/user/th...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-09-26 16:52:25 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_ga_HR0Q6582E9' => 'GS1.1.1599374452.14.0.1599374452.0'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-backend' => 'sp2rkpqg4svcqo0va6b054hkvr'
+    '_csrf-backend' => '62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH\";}'
+    'advanced-frontend' => '0jtgt08eklrpoijgc7d07vs77n'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=user%2Fview&id=3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _ga_HR0Q6582E9=GS1.1.1599374452.14.0.1599374452.0; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-backend=sp2rkpqg4svcqo0va6b054hkvr; _csrf-backend=62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH%22%3B%7D; advanced-frontend=0jtgt08eklrpoijgc7d07vs77n'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '62916'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/user/thumb/15958712271473_20200727_173347_f5e1f76b0d.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/user/thumb/15958712271473_20200727_173347_f5e1f76b0d.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1601139145.919
+    'REQUEST_TIME' => 1601139145
+]
+2020-09-26 16:52:40 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/user/th...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-09-26 16:52:40 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_ga_HR0Q6582E9' => 'GS1.1.1599374452.14.0.1599374452.0'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-backend' => 'sp2rkpqg4svcqo0va6b054hkvr'
+    '_csrf-backend' => '62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH\";}'
+    'advanced-frontend' => '0jtgt08eklrpoijgc7d07vs77n'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=user%2Fview&id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _ga_HR0Q6582E9=GS1.1.1599374452.14.0.1599374452.0; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-backend=sp2rkpqg4svcqo0va6b054hkvr; _csrf-backend=62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH%22%3B%7D; advanced-frontend=0jtgt08eklrpoijgc7d07vs77n'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '62926'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1601139160.346
+    'REQUEST_TIME' => 1601139160
+]
+2020-09-26 16:52:52 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/user/th...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-09-26 16:52:52 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_ga_HR0Q6582E9' => 'GS1.1.1599374452.14.0.1599374452.0'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-backend' => 'sp2rkpqg4svcqo0va6b054hkvr'
+    '_csrf-backend' => '62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH\";}'
+    'advanced-frontend' => '0jtgt08eklrpoijgc7d07vs77n'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=user%2Fupdate&id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _ga_HR0Q6582E9=GS1.1.1599374452.14.0.1599374452.0; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-backend=sp2rkpqg4svcqo0va6b054hkvr; _csrf-backend=62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH%22%3B%7D; advanced-frontend=0jtgt08eklrpoijgc7d07vs77n'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '62931'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1601139172.295
+    'REQUEST_TIME' => 1601139172
+]
+2020-09-26 16:53:56 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/user/th...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-09-26 16:53:56 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_ga_HR0Q6582E9' => 'GS1.1.1599374452.14.0.1599374452.0'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-backend' => 'sp2rkpqg4svcqo0va6b054hkvr'
+    '_csrf-backend' => '62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH\";}'
+    'advanced-frontend' => '0jtgt08eklrpoijgc7d07vs77n'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=user%2Fview&id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _ga_HR0Q6582E9=GS1.1.1599374452.14.0.1599374452.0; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-backend=sp2rkpqg4svcqo0va6b054hkvr; _csrf-backend=62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH%22%3B%7D; advanced-frontend=0jtgt08eklrpoijgc7d07vs77n'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '62946'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1601139236.288
+    'REQUEST_TIME' => 1601139236
+]
+2020-09-26 16:54:00 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/user/th...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-09-26 16:54:00 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_ga_HR0Q6582E9' => 'GS1.1.1599374452.14.0.1599374452.0'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-backend' => 'sp2rkpqg4svcqo0va6b054hkvr'
+    '_csrf-backend' => '62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH\";}'
+    'advanced-frontend' => '0jtgt08eklrpoijgc7d07vs77n'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=user%2Fupdate&id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _ga_HR0Q6582E9=GS1.1.1599374452.14.0.1599374452.0; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-backend=sp2rkpqg4svcqo0va6b054hkvr; _csrf-backend=62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH%22%3B%7D; advanced-frontend=0jtgt08eklrpoijgc7d07vs77n'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '62951'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1601139240.514
+    'REQUEST_TIME' => 1601139240
+]
+2020-09-26 16:54:07 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/user/th...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-09-26 16:54:07 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_ga_HR0Q6582E9' => 'GS1.1.1599374452.14.0.1599374452.0'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-backend' => 'sp2rkpqg4svcqo0va6b054hkvr'
+    '_csrf-backend' => '62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH\";}'
+    'advanced-frontend' => '0jtgt08eklrpoijgc7d07vs77n'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=user%2Fview&id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _ga_HR0Q6582E9=GS1.1.1599374452.14.0.1599374452.0; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-backend=sp2rkpqg4svcqo0va6b054hkvr; _csrf-backend=62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH%22%3B%7D; advanced-frontend=0jtgt08eklrpoijgc7d07vs77n'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '62956'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1601139247.086
+    'REQUEST_TIME' => 1601139247
+]
+2020-09-26 16:54:09 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/user/th...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-09-26 16:54:09 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_ga_HR0Q6582E9' => 'GS1.1.1599374452.14.0.1599374452.0'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-backend' => 'sp2rkpqg4svcqo0va6b054hkvr'
+    '_csrf-backend' => '62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH\";}'
+    'advanced-frontend' => '0jtgt08eklrpoijgc7d07vs77n'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=user%2Fupdate&id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _ga_HR0Q6582E9=GS1.1.1599374452.14.0.1599374452.0; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-backend=sp2rkpqg4svcqo0va6b054hkvr; _csrf-backend=62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH%22%3B%7D; advanced-frontend=0jtgt08eklrpoijgc7d07vs77n'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '62961'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1601139249.964
+    'REQUEST_TIME' => 1601139249
+]
+2020-09-26 16:54:15 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/user/th...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-09-26 16:54:15 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_ga_HR0Q6582E9' => 'GS1.1.1599374452.14.0.1599374452.0'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-backend' => 'sp2rkpqg4svcqo0va6b054hkvr'
+    '_csrf-backend' => '62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH\";}'
+    'advanced-frontend' => '0jtgt08eklrpoijgc7d07vs77n'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=user%2Fupdate&id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _ga_HR0Q6582E9=GS1.1.1599374452.14.0.1599374452.0; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-backend=sp2rkpqg4svcqo0va6b054hkvr; _csrf-backend=62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH%22%3B%7D; advanced-frontend=0jtgt08eklrpoijgc7d07vs77n'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '62965'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1601139255.844
+    'REQUEST_TIME' => 1601139255
+]
+2020-09-26 16:54:21 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/user/th...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-09-26 16:54:21 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_ga_HR0Q6582E9' => 'GS1.1.1599374452.14.0.1599374452.0'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-backend' => 'sp2rkpqg4svcqo0va6b054hkvr'
+    '_csrf-backend' => '62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH\";}'
+    'advanced-frontend' => '0jtgt08eklrpoijgc7d07vs77n'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=user%2Fupdate&id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _ga_HR0Q6582E9=GS1.1.1599374452.14.0.1599374452.0; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-backend=sp2rkpqg4svcqo0va6b054hkvr; _csrf-backend=62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH%22%3B%7D; advanced-frontend=0jtgt08eklrpoijgc7d07vs77n'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '62971'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1601139261.675
+    'REQUEST_TIME' => 1601139261
+]
+2020-09-26 16:55:32 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/user/th...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-09-26 16:55:32 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_ga_HR0Q6582E9' => 'GS1.1.1599374452.14.0.1599374452.0'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-backend' => 'sp2rkpqg4svcqo0va6b054hkvr'
+    '_csrf-backend' => '62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH\";}'
+    'advanced-frontend' => '0jtgt08eklrpoijgc7d07vs77n'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=user%2Fupdate&id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _ga_HR0Q6582E9=GS1.1.1599374452.14.0.1599374452.0; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-backend=sp2rkpqg4svcqo0va6b054hkvr; _csrf-backend=62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH%22%3B%7D; advanced-frontend=0jtgt08eklrpoijgc7d07vs77n'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '62982'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1601139332.437
+    'REQUEST_TIME' => 1601139332
+]
+2020-09-26 16:55:37 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/user/th...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-09-26 16:55:37 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_ga_HR0Q6582E9' => 'GS1.1.1599374452.14.0.1599374452.0'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-backend' => 'sp2rkpqg4svcqo0va6b054hkvr'
+    '_csrf-backend' => '62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH\";}'
+    'advanced-frontend' => '0jtgt08eklrpoijgc7d07vs77n'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=user%2Fview&id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _ga_HR0Q6582E9=GS1.1.1599374452.14.0.1599374452.0; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-backend=sp2rkpqg4svcqo0va6b054hkvr; _csrf-backend=62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH%22%3B%7D; advanced-frontend=0jtgt08eklrpoijgc7d07vs77n'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '62987'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1601139337.816
+    'REQUEST_TIME' => 1601139337
+]
+2020-09-26 16:55:40 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/user/th...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-09-26 16:55:40 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_ga_HR0Q6582E9' => 'GS1.1.1599374452.14.0.1599374452.0'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-backend' => 'sp2rkpqg4svcqo0va6b054hkvr'
+    '_csrf-backend' => '62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH\";}'
+    'advanced-frontend' => '0jtgt08eklrpoijgc7d07vs77n'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=user%2Fupdate&id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _ga_HR0Q6582E9=GS1.1.1599374452.14.0.1599374452.0; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-backend=sp2rkpqg4svcqo0va6b054hkvr; _csrf-backend=62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH%22%3B%7D; advanced-frontend=0jtgt08eklrpoijgc7d07vs77n'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '62986'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1601139340.587
+    'REQUEST_TIME' => 1601139340
+]
+2020-09-26 16:55:45 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/user/th...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-09-26 16:55:45 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_ga_HR0Q6582E9' => 'GS1.1.1599374452.14.0.1599374452.0'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-backend' => 'sp2rkpqg4svcqo0va6b054hkvr'
+    '_csrf-backend' => '62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH\";}'
+    'advanced-frontend' => '0jtgt08eklrpoijgc7d07vs77n'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=user%2Fview&id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _ga_HR0Q6582E9=GS1.1.1599374452.14.0.1599374452.0; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-backend=sp2rkpqg4svcqo0va6b054hkvr; _csrf-backend=62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH%22%3B%7D; advanced-frontend=0jtgt08eklrpoijgc7d07vs77n'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '62996'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1601139345.175
+    'REQUEST_TIME' => 1601139345
+]
+2020-09-26 16:56:10 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/user/th...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-09-26 16:56:10 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_ga_HR0Q6582E9' => 'GS1.1.1599374452.14.0.1599374452.0'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-backend' => 'sp2rkpqg4svcqo0va6b054hkvr'
+    '_csrf-backend' => '62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH\";}'
+    'advanced-frontend' => '0jtgt08eklrpoijgc7d07vs77n'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=user%2Fupdate&id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _ga_HR0Q6582E9=GS1.1.1599374452.14.0.1599374452.0; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-backend=sp2rkpqg4svcqo0va6b054hkvr; _csrf-backend=62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH%22%3B%7D; advanced-frontend=0jtgt08eklrpoijgc7d07vs77n'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '63005'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1601139370.894
+    'REQUEST_TIME' => 1601139370
+]
+2020-09-26 16:56:41 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/user/th...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-09-26 16:56:41 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_ga_HR0Q6582E9' => 'GS1.1.1599374452.14.0.1599374452.0'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-backend' => 'sp2rkpqg4svcqo0va6b054hkvr'
+    '_csrf-backend' => '62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH\";}'
+    'advanced-frontend' => '0jtgt08eklrpoijgc7d07vs77n'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=user%2Fupdate&id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _ga_HR0Q6582E9=GS1.1.1599374452.14.0.1599374452.0; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-backend=sp2rkpqg4svcqo0va6b054hkvr; _csrf-backend=62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH%22%3B%7D; advanced-frontend=0jtgt08eklrpoijgc7d07vs77n'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '63011'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/user/thumb/16007927293676_20200922_163849_1f4180004d.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1601139401.805
+    'REQUEST_TIME' => 1601139401
+]
+2020-09-26 17:03:27 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/user/thumb/16011398056648_20200926_170325_7522f61e55.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/user/th...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-09-26 17:03:27 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_ga_HR0Q6582E9' => 'GS1.1.1599374452.14.0.1599374452.0'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-backend' => 'sp2rkpqg4svcqo0va6b054hkvr'
+    '_csrf-backend' => '62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH\";}'
+    'advanced-frontend' => '0jtgt08eklrpoijgc7d07vs77n'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=user%2Fview&id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _ga_HR0Q6582E9=GS1.1.1599374452.14.0.1599374452.0; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-backend=sp2rkpqg4svcqo0va6b054hkvr; _csrf-backend=62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH%22%3B%7D; advanced-frontend=0jtgt08eklrpoijgc7d07vs77n'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '63124'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/user/thumb/16011398056648_20200926_170325_7522f61e55.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/user/thumb/16011398056648_20200926_170325_7522f61e55.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1601139807.631
+    'REQUEST_TIME' => 1601139807
+]
+2020-09-26 17:03:46 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/user/thumb/16011398254095_20200926_170345_ba5ef9886f.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/user/th...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-09-26 17:03:46 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_ga_HR0Q6582E9' => 'GS1.1.1599374452.14.0.1599374452.0'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-backend' => 'sp2rkpqg4svcqo0va6b054hkvr'
+    '_csrf-backend' => '62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH\";}'
+    'advanced-frontend' => '0jtgt08eklrpoijgc7d07vs77n'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=user%2Fview&id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _ga_HR0Q6582E9=GS1.1.1599374452.14.0.1599374452.0; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-backend=sp2rkpqg4svcqo0va6b054hkvr; _csrf-backend=62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH%22%3B%7D; advanced-frontend=0jtgt08eklrpoijgc7d07vs77n'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '63140'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/user/thumb/16011398254095_20200926_170345_ba5ef9886f.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/user/thumb/16011398254095_20200926_170345_ba5ef9886f.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1601139826.55
+    'REQUEST_TIME' => 1601139826
+]
+2020-09-26 17:03:52 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/user/thumb/16011398254095_20200926_170345_ba5ef9886f.png". in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/user/th...', Array)
+#1 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\tiktok\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\tiktok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\tiktok\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-09-26 17:03:52 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_ga_HR0Q6582E9' => 'GS1.1.1599374452.14.0.1599374452.0'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    'advanced-backend' => 'sp2rkpqg4svcqo0va6b054hkvr'
+    '_csrf-backend' => '62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH\";}'
+    'advanced-frontend' => '0jtgt08eklrpoijgc7d07vs77n'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/tiktok/backend/web/index.php?r=user%2Fview&id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _ga_HR0Q6582E9=GS1.1.1599374452.14.0.1599374452.0; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; advanced-backend=sp2rkpqg4svcqo0va6b054hkvr; _csrf-backend=62b3709a76599f2c6865d2bae46327b3d29e11a3a68ffc861e7ab333335aef90a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ELdrcOfetwSjwzMkIFn0RJWf7YZWmxdH%22%3B%7D; advanced-frontend=0jtgt08eklrpoijgc7d07vs77n'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/tiktok/frontend/web/index.php'
+    'REMOTE_PORT' => '63147'
+    'REDIRECT_URL' => '/tiktok/frontend/web/uploads/user/thumb/16011398254095_20200926_170345_ba5ef9886f.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tiktok/uploads/user/thumb/16011398254095_20200926_170345_ba5ef9886f.png'
+    'SCRIPT_NAME' => '/tiktok/frontend/web/index.php'
+    'PHP_SELF' => '/tiktok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1601139832.572
+    'REQUEST_TIME' => 1601139832
+]
+2020-10-09 09:11:41 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in E:\wamp64\www\image_selling\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\image_selling\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#1 E:\wamp64\www\image_selling\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\image_selling\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\image_selling\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\image_selling\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\image_selling\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-10-09 09:11:36 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    '_ga_HR0Q6582E9' => 'GS1.1.1601983276.16.1.1601983972.0'
+    '_identity-frontend' => 'cf59f1b558aa0c14a94790063f11b3402655520988a60b34772b2c611048a2f9a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"B8DdeSlaaC5-J2nqE54pcoSXdaUQY1ZB\",2592000]\";}'
+    'advanced-frontend' => '2omemf99tqq5d3bo7dda06jv9a'
+    '_csrf-frontend' => 'a70e250cfcf5dd00b72f30e0f9ba0637654218157ef30952dabcccb8913ec7e6a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XYlmUdnDvICkRE4aHOi4xLA84gjEupc1\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+    'location' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"86\", \"\\\"Not\\\\A;Brand\";v=\"99\", \"Google Chrome\";v=\"86\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; _ga_HR0Q6582E9=GS1.1.1601983276.16.1.1601983972.0; _identity-frontend=cf59f1b558aa0c14a94790063f11b3402655520988a60b34772b2c611048a2f9a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22B8DdeSlaaC5-J2nqE54pcoSXdaUQY1ZB%22%2C2592000%5D%22%3B%7D; advanced-frontend=2omemf99tqq5d3bo7dda06jv9a; _csrf-frontend=a70e250cfcf5dd00b72f30e0f9ba0637654218157ef30952dabcccb8913ec7e6a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XYlmUdnDvICkRE4aHOi4xLA84gjEupc1%22%3B%7D'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/image_selling/frontend/web/index.php'
+    'REMOTE_PORT' => '64133'
+    'REDIRECT_URL' => '/image_selling/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/image_selling/'
+    'SCRIPT_NAME' => '/image_selling/frontend/web/index.php'
+    'PHP_SELF' => '/image_selling/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1602234691.265
+    'REQUEST_TIME' => 1602234691
+]
+2020-10-09 09:12:19 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in E:\wamp64\www\image_selling\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\image_selling\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#1 E:\wamp64\www\image_selling\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\image_selling\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\image_selling\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\image_selling\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\image_selling\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-10-09 09:12:19 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    '_ga_HR0Q6582E9' => 'GS1.1.1601983276.16.1.1601983972.0'
+    '_identity-frontend' => 'cf59f1b558aa0c14a94790063f11b3402655520988a60b34772b2c611048a2f9a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"B8DdeSlaaC5-J2nqE54pcoSXdaUQY1ZB\",2592000]\";}'
+    'advanced-frontend' => '2omemf99tqq5d3bo7dda06jv9a'
+    '_csrf-frontend' => 'a70e250cfcf5dd00b72f30e0f9ba0637654218157ef30952dabcccb8913ec7e6a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XYlmUdnDvICkRE4aHOi4xLA84gjEupc1\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+    'location' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"86\", \"\\\"Not\\\\A;Brand\";v=\"99\", \"Google Chrome\";v=\"86\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; _ga_HR0Q6582E9=GS1.1.1601983276.16.1.1601983972.0; _identity-frontend=cf59f1b558aa0c14a94790063f11b3402655520988a60b34772b2c611048a2f9a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22B8DdeSlaaC5-J2nqE54pcoSXdaUQY1ZB%22%2C2592000%5D%22%3B%7D; advanced-frontend=2omemf99tqq5d3bo7dda06jv9a; _csrf-frontend=a70e250cfcf5dd00b72f30e0f9ba0637654218157ef30952dabcccb8913ec7e6a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XYlmUdnDvICkRE4aHOi4xLA84gjEupc1%22%3B%7D'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/image_selling/frontend/web/index.php'
+    'REMOTE_PORT' => '64139'
+    'REDIRECT_URL' => '/image_selling/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/image_selling/'
+    'SCRIPT_NAME' => '/image_selling/frontend/web/index.php'
+    'PHP_SELF' => '/image_selling/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1602234739.172
+    'REQUEST_TIME' => 1602234739
+]
+2020-10-09 09:12:20 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in E:\wamp64\www\image_selling\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\image_selling\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#1 E:\wamp64\www\image_selling\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\image_selling\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\image_selling\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\image_selling\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\image_selling\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-10-09 09:12:20 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1450364275.1598688270'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    '_ga_HR0Q6582E9' => 'GS1.1.1601983276.16.1.1601983972.0'
+    '_identity-frontend' => 'cf59f1b558aa0c14a94790063f11b3402655520988a60b34772b2c611048a2f9a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"B8DdeSlaaC5-J2nqE54pcoSXdaUQY1ZB\",2592000]\";}'
+    'advanced-frontend' => '2omemf99tqq5d3bo7dda06jv9a'
+    '_csrf-frontend' => 'a70e250cfcf5dd00b72f30e0f9ba0637654218157ef30952dabcccb8913ec7e6a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XYlmUdnDvICkRE4aHOi4xLA84gjEupc1\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+    'location' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"86\", \"\\\"Not\\\\A;Brand\";v=\"99\", \"Google Chrome\";v=\"86\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1450364275.1598688270; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; _ga_HR0Q6582E9=GS1.1.1601983276.16.1.1601983972.0; _identity-frontend=cf59f1b558aa0c14a94790063f11b3402655520988a60b34772b2c611048a2f9a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22B8DdeSlaaC5-J2nqE54pcoSXdaUQY1ZB%22%2C2592000%5D%22%3B%7D; advanced-frontend=2omemf99tqq5d3bo7dda06jv9a; _csrf-frontend=a70e250cfcf5dd00b72f30e0f9ba0637654218157ef30952dabcccb8913ec7e6a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XYlmUdnDvICkRE4aHOi4xLA84gjEupc1%22%3B%7D'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/image_selling/frontend/web/index.php'
+    'REMOTE_PORT' => '64140'
+    'REDIRECT_URL' => '/image_selling/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/image_selling/'
+    'SCRIPT_NAME' => '/image_selling/frontend/web/index.php'
+    'PHP_SELF' => '/image_selling/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1602234740.108
+    'REQUEST_TIME' => 1602234740
+]
+2021-04-11 10:05:42 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in E:\wamp64\www\image_selling\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\image_selling\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#1 E:\wamp64\www\image_selling\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\image_selling\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\image_selling\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\image_selling\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\image_selling\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-04-11 10:05:39 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q5ke7uap56nji08vk61a188chu'
+    '_csrf-frontend' => 'f22393b0ae45eb278af4f0fab2d2f39d5c8085f165350de1c765936606d77e7fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"kbJk9Akmmv3hB4ZcXbz_gtvsiY4E5AMi\";}'
+    'advanced-backend' => 'hhnfsjsdob80teg6hg8mk8fn47'
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    '_csrf-backend' => '0629edd42cdc7cfafcd1e1f64d69873264fcaa84949f3ebbc894c2dd37bc3830a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"rOmvgfFIritOjqbIpVJUjG39dfGEwx0e\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=q5ke7uap56nji08vk61a188chu; _csrf-frontend=f22393b0ae45eb278af4f0fab2d2f39d5c8085f165350de1c765936606d77e7fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22kbJk9Akmmv3hB4ZcXbz_gtvsiY4E5AMi%22%3B%7D; advanced-backend=hhnfsjsdob80teg6hg8mk8fn47; _identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; _csrf-backend=0629edd42cdc7cfafcd1e1f64d69873264fcaa84949f3ebbc894c2dd37bc3830a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22rOmvgfFIritOjqbIpVJUjG39dfGEwx0e%22%3B%7D'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/image_selling/frontend/web/index.php'
+    'REMOTE_PORT' => '60948'
+    'REDIRECT_URL' => '/image_selling/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/image_selling/'
+    'SCRIPT_NAME' => '/image_selling/frontend/web/index.php'
+    'PHP_SELF' => '/image_selling/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1618135537.259
+    'REQUEST_TIME' => 1618135537
+]
+2021-05-15 03:58:11 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in E:\wamp64\www\image_selling\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\wamp64\www\image_selling\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#1 E:\wamp64\www\image_selling\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\image_selling\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\wamp64\www\image_selling\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\wamp64\www\image_selling\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\image_selling\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2021-05-15 03:58:07 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb\",2592000]\";}'
+    '_ga' => 'GA1.1.1853644084.1620462759'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_identity-backend=6d7e292953aa4d2e88c2988b6b3a95c1230580d03d64cab2a2dfcd62990de608a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MH_S0BLmGIGinfzQNX8g8COdNRV4t5eb%22%2C2592000%5D%22%3B%7D; _ga=GA1.1.1853644084.1620462759'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;E:\\wamp64\\bin\\php\\php7.3.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/image_selling/frontend/web/index.php'
+    'REMOTE_PORT' => '50575'
+    'REDIRECT_URL' => '/image_selling/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/image_selling/'
+    'SCRIPT_NAME' => '/image_selling/frontend/web/index.php'
+    'PHP_SELF' => '/image_selling/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621051087.395
+    'REQUEST_TIME' => 1621051087
+]

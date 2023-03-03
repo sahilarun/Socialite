@@ -1,0 +1,1399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+  <link href="assets/images/favicon.png" rel="icon" />
+  <title>Socialite | documentation</title>
+  <meta name="description" content="Your ThemeForest item Name and description">
+  <meta name="author" content="">
+
+  <!-- Stylesheet
+============================== -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+  <!-- Font Awesome Icon -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css" />
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css" />
+  <!-- Highlight Syntax -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+</head>
+
+<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+
+  <!-- Preloader -->
+  <!--<div class="preloader">
+    <div class="lds-ellipsis">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>-->
+  <!-- Preloader End -->
+
+  <!-- Document Wrapper   
+=============================== -->
+  <div id="main-wrapper">
+
+    <!-- Header
+  ============================ -->
+    <header id="header" class="sticky-top">
+      <!-- Navbar -->
+      <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+        <div class="container-fluid">
+          <!-- Sidebar Toggler -->
+          <button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button"><span></span><span
+              class="w-75"></span><span class="w-50"></span></button>
+
+          <!-- Logo -->
+          <!--<a class="logo ml-md-3" href="index.html" title="iDocs Template"><img src="assets/images/logo.png"
+              alt="iDocs Template" /> </a>-->
+          <h3>Socialite</h3>
+          <span class="text-2 ml-2">v1.7</span>
+          <!-- Logo End -->
+
+          <!-- Navbar Toggler -->
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+            data-target="#header-nav"><span></span><span></span><span></span></button>
+
+          <div id="header-nav" class="collapse navbar-collapse justify-content-end">
+            <ul class="navbar-nav">
+
+
+              <li><a
+                  href="https://github.com/sahilarun">Code link</a>
+              </li>
+              <li><a href="#idocs_support">Support</a></li>
+            </ul>
+          </div>
+          <ul class="social-icons social-icons-sm ml-lg-2 mr-2">
+            <li class="social-icons-instagram"><a data-toggle="tooltip" href="https://instagram.com/notherhacker.exe" title="" data-original-title="Instagram"><i
+                  class="fab fa-instagram"></i></a></li>
+            <li class="social-icons-github"><a data-toggle="tooltip" href="https://github.com/sahilarun" title=""
+                data-original-title="Github"><i class="fab fa-github"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+    </header>
+    <!-- Header End -->
+
+    <!-- Content
+  ============================ -->
+    <div id="content" role="main">
+
+      <!-- Sidebar Navigation
+	============================ -->
+      <div class="idocs-navigation bg-light">
+        <ul class="nav flex-column ">
+          <li class="nav-item"><a class="nav-link active" href="#idocs_start">Introduction</a>
+          <li class="nav-item"><a class="nav-link active" href="#idocs_basic">Prerequisite</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#idocs_basic">Basic</a></li>
+              <li class="nav-item"><a class="nav-link" href="#idocs_basic_server">Server</a></li>
+              <li class="nav-item"><a class="nav-link" href="#idocs_basic_mobile">Mobile App</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#idocs_backend_install_server">Backend Setup</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#idocs_backend_install_server">Install on server</a></li>
+              <li class="nav-item"><a class="nav-link" href="#idocs_backend_mandatory_nodejs">Nodejs Setup (Chat
+                  socket)</a>
+
+              </li>
+
+              <li class="nav-item"><a class="nav-link" href="#idocs_backend_mandatory_mail">Mandatory setup</a>
+                <ul class="nav flex-column">
+                  <li class="nav-item"><a class="nav-link" href="#idocs_backend_mandatory_mail">Mail Configuration</a>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="#idocs_backend_mandatory_storage_system">Storage
+                      Setting</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#idocs_backend_mandatory_firebase_setup">Firebase
+                      Setting</a></li>
+
+                  <li class="nav-item"><a class="nav-link" href="#idocs_backend_mandatory_agora_setup">Agora Setup
+                    </a></li>
+     
+                </ul>
+
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#idocs_backend_install_server_access_url">Project Access URL</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="#idocs_iphone_app_setup">Mobile app Setup</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#idocs_iphone_app_setup">iPhone app setup</a></li>
+              <li class="nav-item"><a class="nav-link" href="#idocs_android_app_setup">Android app setup</a></li>
+              <li class="nav-item"><a class="nav-link" href="#idocs_firebase_setup">Firebase setup</a></li>
+              <li class="nav-item"><a class="nav-link" href="#idocs_third_party_api_key_setup">Third party api setup</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#idocs_app_settings">App settings</a></li>
+              <li class="nav-item"><a class="nav-link" href="#idocs_hire_us">Custom solution</a></li>
+
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="#idocs_support">Support</a></li>
+
+          <li class="nav-item"><a class="nav-link" href="#idocs_changelog">Changelog</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#v1-7">v1.7</a></li>
+              <li class="nav-item"><a class="nav-link" href="#v1-6">v1.6</a></li>
+              <li class="nav-item"><a class="nav-link" href="#v1-5">v1.5</a></li>
+              <li class="nav-item"><a class="nav-link" href="#v1-4">v1.4</a></li>
+              <li class="nav-item"><a class="nav-link" href="#v1-3">v1.3</a></li>
+              <li class="nav-item"><a class="nav-link" href="#v1-2">v1.2</a></li>
+              <li class="nav-item"><a class="nav-link" href="#v1-1">v1.1</a></li>
+              <li class="nav-item"><a class="nav-link" href="#v1-0">v1.0</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Docs Content
+	============================ -->
+      <div class="idocs-content">
+        <div class="container">
+
+          <!-- Getting Started
+		============================ -->
+          <section id="idocs_start">
+            <h1>Introduction</h1>
+            <h2>Socialite</h2>
+            <p class="lead">Thank you so much for purchasing our item.</p>
+            <hr>
+            <div class="row">
+              <div class="col-sm-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li><strong>Version:</strong> 1.6</li>
+                  <li><strong>Author:</strong> <a href="https://github.com/sahilarun"
+                      target="_blank">Sahil</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li><strong class="font-weight-700">Created:</strong>5 Feb 2023</li>
+                  <li><strong>Update:</strong>Comming soon..!!</li>
+                </ul>
+              </div>
+            </div>
+            <p class="alert alert-info">If you have any questions that are beyond the scope of this help file, Please
+              feel free to email via <a href="#idocs_support"> Support</a>.</p>
+          </section>
+
+          <hr class="divider">
+
+          <!-- basic
+		============================ -->
+          <section id="idocs_basic">
+            <h2>Basic</h2>
+            <p>As This is complete system with lots of modules for web and mobile apps, it is compulsory to have some
+              basic knowledge in both server side and mobile app development if you want to do the installation, setup
+              and publishing with your branding yourself.</p>
+            <ol>
+              <li>Flutter SDK and JDK with path setup in your IDE.</li>
+              <li>Real server related knowledge like apache or local machine server,nodejs we preferred to use a real
+                server.</li>
+              <li>Server related knowledge and we preferred cPanel in your server for quick installation</li>
+              <li>Basic knowledge in PHP, Yii2, Nodejs and Flutter if you want to do some customization yourself (Not
+                compulsory).</li>
+              <li>basic knowledge about google cloud and firebase.</li>
+
+            </ol>
+          </section>
+
+          <hr class="divider">
+
+
+          <!--============================ -->
+          <section id="idocs_basic_server">
+            <h2>Server</h2>
+            <ul>
+              <li>Requires PHP v7.3+ and MySQL.</li>
+              <li>Mod_rewrite Apache</li>
+              <li>Ctype PHP, JSON, PDO, XML, Zip, Gd Extension</li>
+              <li>Nodejs v14.19.3
+
+
+              </li>
+            </ul>
+
+
+          </section>
+
+          <hr class="divider">
+          <!--============================ -->
+          <section id="idocs_basic_mobile">
+            <h2>Mobile app</h2>
+            <ul>
+              <li>Android studio or VC code</li>
+              <li>Flutter SDK setup (version 3.3.0 Stable)</li>
+              <li>JDK with path setup (only for vs code)</li>
+              <li>Xcode 13.2+ for IPA file build</li>
+              <li>Android studio for APK file build</li>
+
+            </ul>
+
+
+          </section>
+
+          <hr class="divider">
+
+
+
+          <!-- 
+		============================ -->
+          <section id="idocs_backend_install_server">
+            <h2>Install on server</h2>
+
+            <p>After download the code from codecayon, upload the backend code zip file (socialite_v7.zip) in
+              your server root and extract the zip file. Backend admin panel can be installed on a domain or subdomain:
+              For Example, yourdomain.com OR xyz.yourdomain.com.</p>
+
+
+            <h5>Database setup</h5>
+            <span class="badge badge-primary text-uppercase mr-2">Step 1</span>
+            <p>Create a new database from your server MYSQL database</p>
+            <p><a class="popup-img" href="images/db1.png"><img class="img-fluid border" src="images/db1.png" alt=""></a>
+            </p>
+
+            <p>Create a DB user to the database and link that database to the DB user</p>
+            <p><a class="popup-img" href="images/dbuser1.png"><img class="img-fluid border" src="images/dbuser1.png"
+                  alt=""></a></p>
+
+            <p>Import Mysql database file into your database. database file can be find in doc/db folder in given code.
+              <br> For new setup use socialite_new_sertup_1.7.sql file
+              <br>eg. For update use socialite_update_1.6 to1.7.sql file
+            </p>
+            <p><a class="popup-img" href="images/db2.jpg"><img class="img-fluid border" src="images/db2.jpg" alt=""></a>
+            </p>
+            <span class="badge badge-primary text-uppercase mr-2">Step 2</span>
+            <p>Db configuration can be updated in <code>common/config/main-local.php</code>.<br>
+              Update dbname, username and password.
+            </p>
+
+            <pre><code class="php">&lt;&#63;php
+              return [
+                  'components' => [
+                      'db' => [
+                          'class' => 'yii\db\Connection',
+                          'dsn' => 'mysql:host=<mark>localhost</mark>;dbname=<mark>DB_NAME####</mark>',
+                          'username' => '<mark>#####</mark>',
+                          'password' => '<mark>######</mark>',
+                          'charset' => 'utf8',
+                      ],
+                      'mailer' => [
+                          'class' => 'yii\swiftmailer\Mailer',
+                          'viewPath' => '@common/mail',
+                          'transport' => [
+                              'class' => 'Swift_SmtpTransport',
+                              'host' => 'smtp-relay.sendinblue.com',  // e.g. smtp.mandrillapp.com or smtp.gmail.com
+                              'username' => '############',
+                              'password' => '###########',
+                              'port' => '587', // Port 25 is a very common port too
+                              'encryption' => 'tls', // It is often used, check your provider or mail server specs
+                          ],
+                      ],
+                      
+
+
+                  ],
+              ];
+
+            </code></pre>
+            <span class="badge badge-primary text-uppercase mr-2">Step 3</span>
+            <p>
+            <h5>Site Url and Envato purchase code</h5>
+            Site url can be update from <code>common/config/params.php</code>
+
+
+            </p>
+
+            <pre><code class="php">&lt;&#63;php
+
+              'adminEmail' => 'admin@Socialite.co',
+              'supportEmail' => 'support@SocialiFied.com',
+              'senderEmail' => 'admin@SocialiFied.co',
+              'senderName' => 'SocialiFied',
+              
+              'siteMode' => 2, // 1 for live, 2 for testing , 3 demo
+              'siteUrl' => '<mark>http://example.com</mark>',// domain here
+              'enventoPurchaseCode' => '<mark>##########</mark>', // envato purchase code
+              'storageSystem'=> 1,// storage system (local storage =1, AWS S3=2, AZURE=3)
+              's3' => [
+                  'key' => '##############',
+                  'secret' => '##############',
+                  'region' => '##############',
+                  'defaultBucket' => '#########', //name
+                  'storageUrl'=>'https://[bucket_name].s3.amazonaws.com'  //aws s3 storage url
+                  
+                  
+              ],
+
+
+            </code></pre>
+
+            <span class="badge badge-primary text-uppercase mr-2">Step 4</span>
+            <p>All done for appache srever, your software is ready to run.<br>
+
+              Admin Url : <code>youdomin.com/backend/web/index.php</code> <br>
+              Login information : <br>
+              Username : admin<br>
+              Password : 123456<br>
+
+
+            </p>
+
+          </section>
+
+          <hr class="divider">
+
+
+          <section id="idocs_backend_mandatory_nodejs">
+
+
+
+            <h4>Nodejs Chat Socket Setup </h4>
+            <p>We are using nodeJs socket programming for chat, Use following instruction for socket setup<br>
+              All nodeJs chat code will be in <code>/chat </code>forder
+            </p>
+
+            <span class="badge badge-primary text-uppercase mr-2">Step 1</span>
+            <h5></h5>
+            <p>Nodejs v14.19.3 must be installed on your server<br>
+              To confirm you have nodejs install, try to run command in your console : <br>
+            <pre><code>node -v</code></pre>
+
+            You must see installed version of nodejs<br>
+            <a class="popup-img" href="images/nodeintalled.png"><img class="img-fluid border"
+                src="images/nodeintalled.png" alt=""></a>
+
+            </p>
+
+
+            <span class="badge badge-primary text-uppercase mr-2">Step 2</span>
+            <h5></h5>
+            <p>You can update configuration file<code>chat/config.json </code> with given fields<br>
+
+            </p>
+            <pre><code class="php">
+{
+  "port":4000,  //server port
+    "live":{    // add your db information
+      "host": "localhost",    
+      "user": "######",
+      "password": "######",
+      "database": "#######"
+    },
+    "dev":{ // leave it blank
+      "host": "####",
+      "user": "#####",
+      "password": "####",
+      "database": "###"
+    }
+  },
+  "encryptionKey":"##########################", // enter key for encryption chat eg. bbC2H19lkVsQDf74rtNMQdddFloLyws
+  "storageUrl":"https://<mark>[bucket_name]</mark>.s3.amazonaws.com   OR  <mark>https://yoursite.com/</mark>uploads",  //Use bucket url for AWS S3 OR use https://yoursite.com/upload for local storage   <a  href="#idocs_backend_mandatory_aws_s3">Check For S3</a>
+  "pushNotification":{    
+      "databaseURL": "https://q#############.firebaseio.com"         <a  href="#nodejsFirebase">See here</a>   
+  },
+  "voipNotification":{                                               <a target="_blank"  href="https://mobikul.com/manage-firebase-push-notification-using-p8-file-in-ios/">Check documentation to create</a> 
+    "key": "cert/AuthKey_#####.p8", // .p8 file
+    "keyId": "########", //67J4MZG469
+    "teamId": "########", // T937GPNTUY
+    "bundleId":"###########"  //com.example.app
+  }
+
+        </code></pre>
+            </p>
+
+            <p>
+              <span class="badge badge-primary text-uppercase mr-2">Step 3</span>
+            <h5>Firbase Setup</h5>
+
+            <li><a href="#nodejsFirebase">Download</a> <code>serviceAccountKey.json</code> and put the file in
+              <code>/chat</code> folder </li>
+            <li><a href="#nodejsFirebase">Download Json File </a> </li>
+
+
+            <br>
+
+            <a class="popup-img" href="images/serviceAccountkey.png"><img class="img-fluid border"
+                src="images/serviceAccountkey.png" alt=""></a>
+            </p>
+
+
+            <span class="badge badge-primary text-uppercase mr-2">Step 4</span>
+            <h5>Start node server </h5>
+            <p>After installing all dependencies and updated the configuration, you must start node server :<br>
+              Open a terminal and nvigate to the <code>/chat</code> folder that contain the file "index.js"<br>
+              <b>Run following command to start server :</b>
+            <pre><code class="php">
+          cd /path/to/your/root forlder/chat
+          node index.js
+        </code>
+        </pre>
+            OR<br>
+            For running server all time you can install <b>forever package</b>
+            <a target="_blank" href="https://www.npmjs.com/package/forever">More Detail</a><br>
+
+            Run following command to run server with forever:
+            <pre><code class="php">
+          cd /path/to/your/root forlder/chat
+          forever start index.js
+        </code>
+        </pre>
+
+
+            <b>Visit http://yourdomain:4000 in your browser. You will see following screen if server is started
+              successfully</b>.<br><br>
+
+            <a class="popup-img" href="images/nodestart.png"><img class="img-fluid border" src="images/nodestart.png"
+                alt=""></a>
+
+            </p>
+
+
+
+
+
+
+          </section>
+
+
+
+
+          <!-- 
+		============================ -->
+          <section id="idocs_backend_mandatory_mail">
+            <h2>Mandatory setup</h2>
+
+            <h4>Mail Configuration</h4>
+
+            <p>Mail Configurations part admin can set his Mailer host, user name and his own encryption method and
+              password for this SMTP Mail setup. This configuratin is used for sending mails.</p>
+
+            <p>MAil configuration can be updated in <code>common/config/main-local.php</code>.
+
+            </p>
+
+            <pre><code class="php">&lt;&#63;php
+        return [
+            'components' => [
+                'db' => [
+                    'class' => 'yii\db\Connection',
+                    'dsn' => 'mysql:host=localhost;dbname=DB_NAME####',
+                    'username' => '#####',
+                    'password' => '######',
+                    'charset' => 'utf8',
+                ],
+                'mailer' => [
+                    'class' => 'yii\swiftmailer\Mailer',
+                    'viewPath' => '@common/mail',
+                    'transport' => [
+                        'class' => 'Swift_SmtpTransport',
+                        'host' => '<mark>smtp-relay.sendinblue.com</mark>',  // e.g. smtp.mandrillapp.com or smtp.gmail.com
+                        'username' => '<mark>############</mark>',
+                        'password' => '<mark>###########</mark>',
+                        'port' => '587', // Port 25 is a very common port too
+                        'encryption' => 'tls', // It is often used, check your provider or mail server specs
+                    ],
+                ],
+                
+
+
+            ],
+        ];
+
+      </code></pre>
+
+          </section>
+
+          <hr class="divider">
+
+          <!-- 
+  ============================ -->
+
+          <section id="idocs_backend_mandatory_storage_system">
+
+
+
+            <h4>Storage Setting </h4>
+            <p>We are giving following three option to store media files. You can choose one storage system according to
+              your requirements</p>
+            <ul>
+              <li> <a href="#idocs_backend_mandatory_local_server_storage">Local server storage</a></li>
+              <li> <a href="#idocs_backend_mandatory_aws_s3">AWS S3</a></li>
+              <li> <a href="#idocs_backend_mandatory_azure">Azure Storage</a></li>
+
+
+            </ul>
+            <section id="idocs_backend_mandatory_local_server_storage">
+              <br><br><br>
+              <h5>Local server storage setting</h5>
+              Storage system can update be update from <code>common/config/params.php</code><br>
+              set storageSystem=1 for local storage
+
+              </p>
+
+              <pre><code class="php">&lt;&#63;php
+
+        'adminEmail' => 'admin@SocialiFied.co',
+        'supportEmail' => 'support@SocialiFied.com',
+        'senderEmail' => 'admin@SocialiFied.co',
+        'senderName' => 'SocialiFied',
+        
+        'siteMode' => 2, // 1 for live, 2 for testing , 3 demo
+        'siteUrl' => 'http://example.com',// domain here
+        'enventoPurchaseCode' => '##########', // envato purchase code
+        'storageSystem'=> <mark>1</mark>,//  storage system ( local storage =1, AWS S3=2, AZURE=3)
+        's3' => [
+            'key' => '##############',
+            'secret' => '##############',
+            'region' => '##############',
+            'defaultBucket' => '#########', //name
+            'storageUrl'=>'https://[bucket_name].s3.amazonaws.com'  //aws s3 storage url
+            
+        ],
+        'azureFs' => [
+            'accountName' => '###########',
+            'accountKey' => '##########',
+            'container' => '#######'
+            
+        ],
+        
+
+
+      </code></pre>
+
+
+
+
+          </section>
+
+          <hr class="divider">
+
+          
+          <section id="idocs_backend_mandatory_firebase_setup">
+
+
+
+            <h4>Firebase key Setting </h4>
+            <p>We are using firebase to send push notification. </p>
+
+
+            Firbase srever key can update be update from <code>common/config/params.php</code><br>
+
+            </p>
+
+            <pre><code class="php">&lt;&#63;php
+        
+        'adminEmail' => 'admin@SocialiFied.co',
+        'supportEmail' => 'support@SocialiFied.com',
+        'senderEmail' => 'admin@SocialiFied.co',
+        'senderName' => 'SocialiFied',
+        
+        'siteMode' => 2, // 1 for live, 2 for testing , 3 demo
+        'siteUrl' => 'http://example.com',// domain here
+        'enventoPurchaseCode' => '##########', // envato purchase code
+        'storageSystem'=> <mark>1</mark>,//  storage system ( local storage =1, AWS S3=2, AZURE=3)
+        's3' => [
+            'key' => '##############',
+            'secret' => '##############',
+            'region' => '##############',
+            'defaultBucket' => '#########', //name
+            'storageUrl'=>'https://[bucket_name].s3.amazonaws.com'  //aws s3 storage url
+            
+        ],
+        'azureFs' => [
+            'accountName' => '###########',
+            'accountKey' => '##########',
+            'container' => '#######'
+            
+        ],
+        'testOtp' => '###',
+        'apiKey.firebaseCloudMessaging'=> '<mark>##############</mark>',             <a  href="#firebaseserverkey">See here</a>   
+        'user.passwordResetTokenExpire' => 3600,
+
+
+      </code></pre>
+
+
+
+          </section>
+
+
+        </section>
+
+        <hr class="divider">
+
+        
+        <section id="idocs_backend_mandatory_agora_setup">
+
+
+
+          <h4>Agora key Setting </h4>
+          <p>Setup Agora api key for audio video calling. You can get your keys.
+            <a  href="#agoraIds">See here</a>   
+
+            <br>
+            After Getting the App ID, and App Certificate keys, update it from admin panel setting: 
+            Admin > Setting > App Setting 
+
+
+
+
+
+        </section>
+
+
+
+
+
+
+
+          <hr class="divider">
+
+
+
+          <section id="idocs_backend_mandatory_aws_s3">
+
+
+
+            <h4>Amazone S3 Setup </h4>
+            <p>We are using amazone s3 for storage files and images. </p>
+            <span class="badge badge-primary text-uppercase mr-2">Step 1</span>
+            <h5>Create Bucket</h5>
+
+
+            <p>You can create bucket on s3 to follow this URL:<br> <a target="_blank"
+                href="https://docs.aws.amazon.com/quickstarts/latest/s3backup/step-1-create-bucket.html">https://docs.aws.amazon.com/quickstarts/latest/s3backup/step-1-create-bucket.html
+
+              </a>.
+              <br>
+              After create bucket. You have to create folders :
+              chat, collection, competition, image, user, story,gift, verification and user
+
+            </p>
+            <p><a class="popup-img" href="images/s31.png"><img class="img-fluid border" src="images/s31.png" alt=""></a>
+            </p>
+            <span class="badge badge-primary text-uppercase mr-2">Step 2</span>
+            <h5>Update AWS S3 Access key and secret access key</h5>
+            Use following url to create secret keys:<br>
+            <a target="_blank"
+              href="https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html#get-access-keys">https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html#get-access-keys</a>.
+            <p>After generate the keys and secret, update it with bucket name on
+              <code>common/config/params.php</code><br>
+
+            </p>
+
+            set storageSystem=2 for AWS s3 storage, and update s3 information as below
+
+            </p>
+
+            <pre><code class="php">&lt;&#63;php
+    
+            'adminEmail' => 'admin@SocialiFied.co',
+            'supportEmail' => 'support@SocialiFied.com',
+            'senderEmail' => 'admin@SocialiFied.co',
+            'senderName' => 'SocialiFied',
+            
+            'siteMode' => 1, // 1 for live, 2 for testing 
+            'siteUrl' => 'http://example.com',// domain here
+            'storageSystem'=> <mark>2</mark>,  // storage system (local storage =1, AWS S3=2)
+            's3' => [
+                'key' => '<mark>##############</mark>',
+                'secret' => '<mark>##############</mark>',
+                'region' => '<mark>##############</mark>',
+                'defaultBucket' => '<mark>##############</mark>', //bucket name
+                'storageUrl'=>'<mark>https://[bucket_name].s3.amazonaws.com</mark> '  //aws s3 storage url
+                
+                
+            ],
+    
+    
+          </code></pre>
+
+
+
+          </section>
+          <hr class="divider">
+
+          <section id="idocs_backend_mandatory_azure">
+
+
+
+            <h4>Azure Storage Setup </h4>
+            <p>We are using microsoft azure for  storage files and images. </p>
+            <span class="badge badge-primary text-uppercase mr-2">Step 1</span>
+            <h5>Create access keys (Account Name, Account Key, Container) </h5>
+            
+            <p>You can create azure setup from  :<br> <a target="_blank"
+                href="https://learn.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal">https://learn.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal
+
+              </a>.
+              <br>
+             
+
+            </p>
+           
+            <span class="badge badge-primary text-uppercase mr-2">Step 2</span>
+            <h5>Update Azure Access keys</h5>
+            
+            <p>After generate the keys  update it on 
+              <code>common/config/params.php</code><br>
+
+            </p>
+
+            set storageSystem=3 for Azure storage, and update azureFs information as below
+
+            </p>
+
+            <pre><code class="php">&lt;&#63;php
+          'adminEmail' => 'admin@SocialiFied.co',
+          'supportEmail' => 'support@SocialiFied.com',
+          'senderEmail' => 'admin@SocialiFied.co',
+          'senderName' => 'SocialiFied',
+          
+          'siteMode' => 1, // 1 for live, 2 for testing , 3 demo
+          'siteUrl' => 'http://example.com',// domain here
+          'enventoPurchaseCode' => '##########', // envato purchase code
+          'storageSystem'=> <mark>3</mark>,//  storage system ( local storage =1, AWS S3=2, AZURE=3)
+          's3' => [
+              'key' => '##############',
+              'secret' => '##############',
+              'region' => '##############',
+              'defaultBucket' => '#########', //name
+              'storageUrl'=>'https://[bucket_name].s3.amazonaws.com'  //aws s3 storage url
+              
+          ],
+          'azureFs' => [
+              'accountName' => '<mark>##############</mark>',
+              'accountKey' => '<mark>##############</mark>',
+              'container' => '<mark>##############</mark>',
+              
+          ],
+    
+          </code></pre>
+
+
+
+          </section>
+          <hr class="divider">
+
+
+          <p>
+          <h5 id="agoraIds">Setup Agora api key for audio video calling</h5>
+          <li>Create Agora api key from below url</li>
+          <li>URL <a href="https://www.agora.io" target="_blank">https://www.agora.io</a></li>
+
+          <br><br>
+
+          <a class="popup-img" href="images/agora.png"><img class="img-fluid border" src="images/agora.png" alt=""></a>
+          </p>
+
+          <hr class="divider">
+          <section id="idocs_backend_install_server_access_url">
+
+
+
+            <h4>Project access URL </h4>
+
+            <p><h5>Admin Panel</h5>
+
+              Admin Url : <code>youdomin.com/backend/web/index.php</code> <br>
+              Login information : <br>
+              Username : admin<br>
+              Password : 123456<br>
+
+            </p>
+
+            <h5>Rest API Endpoint Url (restApiBaseUrl)</h5>
+
+              youdomin.com/api/web/v1
+
+            </p>
+
+            
+
+             <p><h5>Socket Url (socketApiBaseUrl)</h5>
+              http://yourdomain:4000
+              
+
+              
+
+            </p>
+
+
+
+
+          </section>
+       
+
+
+
+
+
+          <hr class="divider">
+
+
+          <!-- iphone app setup  ============================ -->
+          <section id="idocs_iphone_app_setup">
+            <h2>iPhone app setup</h2>
+
+            <span class="badge badge-primary text-uppercase mr-2">Step 1</span>
+
+            <p>Go to developer.apple.com and login using credentials
+              Follow the instructions given in the link below to create bundle identifier.</p>
+            <a href="https://www.appcodezip.com/2020/05/app-id.html"
+              target="_blank">https://www.appcodezip.com/2020/05/app-id.html</a>
+
+            <br><br>
+            <p><b>Keep note of bundle identifier as we need it in firebase ios app setup and flutter ios app setup.</b>
+            </p>
+            <br><br>
+
+            <span class="badge badge-primary text-uppercase mr-2">Step 2</span>
+            <h5>Enbale apple pay and push notification</h5>
+
+            <p>Your need to enable push notification and apple login option in create identifer that you created in step
+              1. See below screenshot for refrence</p>
+            <p><a class="popup-img" href="app_setup_images/enable_push_apple_login.png"><img class="img-fluid border"
+                  src="app_setup_images/enable_push_apple_login.png" alt=""></a></p>
+            <br>
+
+            <span class="badge badge-primary text-uppercase mr-2">Step 3</span><br>
+            <h5>Setup iOS app source code</h5>
+
+            <li>Open ios project from "mobile" project in xcode.</li>
+            <li>You need to double click on "Runner.xcworkspace" file to open project</li><br><br>
+
+            <p><a class="popup-img" href="app_setup_images/ios_code_folder.png"><img class="img-fluid border"
+                  src="app_setup_images/ios_code_folder.png" alt=""></a></p>
+
+
+            <span class="badge badge-primary text-uppercase mr-2">Step 4</span><br>
+            <h5>Change bundle identifier</h5>
+
+            <p>Replace the bundle identifier with your created bundle identifier above in ios app setup in apple
+              developer account
+            </p><br>
+
+            <p><a class="popup-img" href="app_setup_images/change_bundle_identifer.png"><img class="img-fluid border"
+                  src="app_setup_images/change_bundle_identifer.png" alt=""></a></p>
+
+            <span class="badge badge-primary text-uppercase mr-2">Step 5</span><br>
+            <h5>Change app name</h5>
+            <p>Add new app name in display name field</p><br>
+
+            <p><a class="popup-img" href="app_setup_images/change_app_name.png"><img class="img-fluid border"
+                  src="app_setup_images/change_app_name.png" alt=""></a></p>
+
+            <span class="badge badge-primary text-uppercase mr-2">Step 6</span><br>
+            <h5>Change app icons</h5>
+            <p>Go to "Assets.xcassets" folder and replace app icon as shown in below screenshot</p><br>
+
+            <p><a class="popup-img" href="app_setup_images/change_app_icon.png"><img class="img-fluid border"
+                  src="app_setup_images/change_app_icon.png" alt=""></a></p>
+
+
+          </section>
+
+          <hr class="divider">
+
+          <!-- Android app setup  ============================ -->
+          <section id="idocs_android_app_setup">
+            <h2>Android app setup</h2>
+
+            <span class="badge badge-primary text-uppercase mr-2">Step 1</span>
+            <h5>Replace package name</h5>
+
+            <p>Open the "build.gradle" file in android code, Replace the package with your own created package name as
+              shown in below screenshot.</p>
+            <p><a class="popup-img" href="app_setup_images/android_package_name.png"><img class="img-fluid border"
+                  src="app_setup_images/android_package_name.png" alt=""></a></p>
+            <br>
+
+
+            <h5>Change app name</h5>
+            <span class="badge badge-primary text-uppercase mr-2">Step 2</span><br>
+            <li>Go to project and then open folder in sequence android -> app -> src -> main -> AndroidManifest.xml</li>
+            <li>Add new app name in android:label in application tag</li><br>
+
+            <p><a class="popup-img" href="app_setup_images/android_app_change_name.png"><img class="img-fluid border"
+                  src="app_setup_images/android_app_change_name.png" alt=""></a></p>
+
+            <h5>Change app icons</h5>
+            <span class="badge badge-primary text-uppercase mr-2">Step 3</span><br>
+            <li>Go to project and then open folder in sequence android -> app -> src -> main -> res</li>
+            <li>There will be folders like mipmap-hdpi, mipmap-mdpi etc. Replace icons in these folders as shown in the
+              below screenshot</li><br>
+
+            <p><a class="popup-img" href="app_setup_images/android_change_app_icon.png"><img class="img-fluid border"
+                  src="app_setup_images/android_change_app_icon.png" alt=""></a></p>
+
+
+          </section>
+
+          <hr class="divider">
+
+
+          <!-- Firebase setup  ============================ -->
+          <section id="idocs_firebase_setup">
+            <h2>Firebase app setup for social login and push notificatoions</h2>
+
+            <h5>Create new firebase project</h5>
+            <span class="badge badge-primary text-uppercase mr-2">Step 1</span><br><br>
+            <li>Login into your Firebase account and create an app if it's not created yet.</li>
+            <li>Create an app if its not created</li><br>
+
+            <p><a class="popup-img" href="app_setup_images/firebase_create_account1.png"><img class="img-fluid border"
+                  src="app_setup_images/firebase_create_account1.png" alt=""></a></p>
+            <p><a class="popup-img" href="app_setup_images/firebase_create_account2.png"><img class="img-fluid border"
+                  src="app_setup_images/firebase_create_account2.png" alt=""></a></p>
+            <p><a class="popup-img" href="app_setup_images/firebase_create_account3.png"><img class="img-fluid border"
+                  src="app_setup_images/firebase_create_account3.png" alt=""></a></p>
+
+
+            <h5>Create iOS app in firebase project</h5>
+            <span class="badge badge-primary text-uppercase mr-2">Step 2</span><br><br>
+            <p>Follow the below screenshots to Create ios app.</p><br><br>
+
+            <p><a class="popup-img" href="app_setup_images/firebase_add_ios_app_1.png"><img class="img-fluid border"
+                  src="app_setup_images/firebase_add_ios_app_1.png" alt=""></a></p>
+            <p><a class="popup-img" href="app_setup_images/firebase_add_ios_app_2.png"><img class="img-fluid border"
+                  src="app_setup_images/firebase_add_ios_app_2.png" alt=""></a></p>
+            <p><a class="popup-img" href="app_setup_images/firebase_add_ios_app_3.png"><img class="img-fluid border"
+                  src="app_setup_images/firebase_add_ios_app_3.png" alt=""></a></p>
+            <p><a class="popup-img" href="app_setup_images/firebase_add_ios_app_4.png"><img class="img-fluid border"
+                  src="app_setup_images/firebase_add_ios_app_4.png" alt=""></a></p>
+            <br><br>
+            <h3>Download the plist file , We will use it later in flutter app.<h3><br><br>
+                <p><a class="popup-img" href="app_setup_images/firebase_add_ios_app_5.png"><img class="img-fluid border"
+                      src="app_setup_images/firebase_add_ios_app_5.png" alt=""></a></p>
+
+
+                <h5>Create android app in firebase project</h5>
+                <span class="badge badge-primary text-uppercase mr-2">Step 3</span><br><br>
+                <p>Follow the below screenshots to Create android app.</p><br><br>
+
+                <p><a class="popup-img" href="app_setup_images/firebase_add_ios_app_1.png"><img class="img-fluid border"
+                      src="app_setup_images/firebase_add_ios_app_1.png" alt=""></a></p>
+                <p><a class="popup-img" href="app_setup_images/firebase_add_ios_app_2.png"><img class="img-fluid border"
+                      src="app_setup_images/firebase_add_ios_app_2.png" alt=""></a></p>
+                <p><a class="popup-img" href="app_setup_images/firebase_add_android_app_1.png"><img
+                      class="img-fluid border" src="app_setup_images/firebase_add_android_app_1.png" alt=""></a></p>
+                <p><a class="popup-img" href="app_setup_images/firebase_add_android_app_2.png"><img
+                      class="img-fluid border" src="app_setup_images/firebase_add_android_app_2.png" alt=""></a></p>
+
+                <br><br>
+                <h3>Download the json file , We will use it later in flutter app.</h3><br><br>
+                <p><a class="popup-img" href="app_setup_images/firebase_add_android_app_3.png"><img
+                      class="img-fluid border" src="app_setup_images/firebase_add_android_app_3.png" alt=""></a></p>
+
+                <br><br>
+                <span id="nodejsFirebase" class="badge badge-primary text-uppercase mr-2">Step 4</span><br><br>
+                <p>Download the service account key and get database url for nodejs setup</p><br><br>
+                <p><a class="popup-img" href="app_setup_images/firebase_enable_social_login.png"><img
+                      class="img-fluid border" src="images/firebease.png" alt=""></a></p><br><br>
+
+
+                <p id="firebaseserverkey">Copy the server key key for push notifictaion in backend server setup</p>
+                <p><a class="popup-img" href="images/firebease_server_key.png"><img class="img-fluid border"
+                      src="images/firebease_server_key.png" alt=""></a></p>
+
+                <h2>Enable social logins</h2>
+                <p>Go to Authentication tab from left menu and click on get started</p><br><br>
+
+                <p><a class="popup-img" href="app_setup_images/firebase_enable_social_login.png"><img
+                      class="img-fluid border" src="app_setup_images/firebase_enable_social_login.png" alt=""></a></p>
+
+                <br><br>
+
+
+                <h2>Google login</h2>
+                <p>Select google sign in and enable it</p><br>
+
+                <p><a class="popup-img" href="app_setup_images/firebase_google_login.png"><img class="img-fluid border"
+                      src="app_setup_images/firebase_google_login.png" alt=""></a></p>
+
+
+                <br><br>
+                <h2>Facebook login</h2>
+                <li>Select facebook sign in and enable it</li>
+                <li>Add Facebook app id and App secret</li>
+                <li>Select facebook sign in and enable it</li>
+                <li>Follow the <a href="https://developers.facebook.com/docs/development/create-an-app"
+                    target="_blank">https://developers.facebook.com/docs/development/create-an-app</a> link to create
+                  facebook app and get required keys.</li><br>
+
+                <p><a class="popup-img" href="app_setup_images/firebase_facebook_login.png"><img
+                      class="img-fluid border" src="app_setup_images/firebase_facebook_login.png" alt=""></a></p>
+
+
+                <br><br>
+                <h2>Link firebase project with source code</h2>
+
+                <li>Open project in android studio</li>
+                <li>Open iOS/Runner folder and delete the older "GoogleService-Info.plist file</li>
+                <li>Drag and drop the new "GoogleService-Info.plist" config file that you have created above for your
+                  ios app. Make sure you drag the file at same location from where you delete the older file</li>
+                <li>Copy the "REVERSED_CLIENT_ID" and paste it in URL types as shown in screenshots</li><br><br>
+
+                <p><a class="popup-img" href="app_setup_images/link_firebase_with_source_code_1.png"><img
+                      class="img-fluid border" src="app_setup_images/link_firebase_with_source_code_1.png" alt=""></a>
+                </p>
+                <p><a class="popup-img" href="app_setup_images/link_firebase_with_source_code_2.png"><img
+                      class="img-fluid border" src="app_setup_images/link_firebase_with_source_code_2.png" alt=""></a>
+                </p>
+                <p><a class="popup-img" href="app_setup_images/link_firebase_with_source_code_3.png"><img
+                      class="img-fluid border" src="app_setup_images/link_firebase_with_source_code_3.png" alt=""></a>
+                </p>
+
+
+                <br><br>
+                <li>Goto info.plist file and replace the Old facebook id with your facebook id as shown in below
+                  screenshots, Repeat the same process for facebook client token also</li><br><br>
+
+                <p><a class="popup-img" href="app_setup_images/link_firebase_with_source_code_4.png"><img
+                      class="img-fluid border" src="app_setup_images/link_firebase_with_source_code_4.png" alt=""></a>
+                </p>
+                <p><a class="popup-img" href="app_setup_images/link_firebase_with_source_code_5.png"><img
+                      class="img-fluid border" src="app_setup_images/link_firebase_with_source_code_5.png" alt=""></a>
+                </p>
+
+
+                <br><br>
+                <li>Open strings.xml file in android project under android/app/src/main/res/values folder</li>
+                <li>Enter facebook app id and client token as shown in screenshots</li><br><br>
+
+                <p><a class="popup-img" href="app_setup_images/link_firebase_with_source_code_6.png"><img
+                      class="img-fluid border" src="app_setup_images/link_firebase_with_source_code_6.png" alt=""></a>
+                </p>
+
+          </section>
+          <hr class="divider">
+
+          <!-- Third party api key setting  ============================ -->
+          <section id="idocs_third_party_api_key_setup">
+
+            <br><br>
+            <h2>Third party api keys</h2>
+          
+            <h4>Setup Agora api key for audio video calling</h4>
+            <li>Create Agora api key from below url</li>
+            <li>URL <a href="https://www.agora.io" target="_blank">https://www.agora.io</a></li>
+            <li>Replace the Agora key in project as shown below</li>
+            <br><br>
+
+            <p><a class="popup-img" href="app_setup_images/agora_api_key.png"><img class="img-fluid border"
+                  src="app_setup_images/agora_api_key.png" alt=""></a></p>
+
+            <br><br>
+
+            <h4>Setup Google map api key for showing google map for location sharing in chat</h4>
+            <li>Create Google map key from below url</li>
+            <li>Remember to enable Places API, Maps SDK for Android, Maps SDK for iOS and Geocoding API for your API
+              key.</li>
+            <li>URL <a href="https://cloud.google.com/maps-platform/"
+                target="_blank">https://cloud.google.com/maps-platform/</a></li>
+            <li>Replace the Google map key in project as shown below</li>
+            <br><br>
+
+            <p><a class="popup-img" href="app_setup_images/google_map_api_key.png"><img class="img-fluid border"
+                  src="app_setup_images/google_map_api_key.png" alt=""></a></p>
+            <p><a class="popup-img" href="app_setup_images/android_google_map_api_key_setup.png"><img
+                  class="img-fluid border" src="app_setup_images/android_google_map_api_key_setup.png" alt=""></a></p>
+            <p><a class="popup-img" href="app_setup_images/ios_google_map_api_key_setup.png"><img
+                  class="img-fluid border" src="app_setup_images/ios_google_map_api_key_setup.png" alt=""></a></p>
+
+          </section>
+
+          <hr class="divider">
+
+          <!-- App setting ============================ -->
+          <section id="idocs_app_settings">
+
+            <h2>Change api urls</h2>
+            <p>Go to "app_config_constants.dart" file and change api server(PHP) url and socket server(Node.js) url as
+              shown in below screenshot</p>
+            <br><br>
+
+            <p><a class="popup-img" href="app_setup_images/change_serevr_url.png"><img class="img-fluid border"
+                  src="app_setup_images/change_serevr_url.png" alt=""></a></p>
+            <br><br>
+
+            <h2>Change app name</h2>
+            <p>Go to "app_config_constants.dart" file and change app and as below screenshot</p>
+            <br><br>
+
+            <p><a class="popup-img" href="app_setup_images/app_name.png"><img class="img-fluid border"
+                  src="app_setup_images/app_name.png" alt=""></a></p>
+            <br><br>
+
+            <h2>Change app version for force update</h2>
+            <p>Go to "app_config_constants.dart" file and change currentVersion value to current version number of the
+              app that you are going to publish</p>
+            <br><br>
+
+            <p><a class="popup-img" href="app_setup_images/chnage_app_version.png"><img class="img-fluid border"
+                  src="app_setup_images/chnage_app_version.png" alt=""></a></p>
+            <br><br>
+
+            <h2>Change app link</h2>
+            <p>Go to "app_config_constants.dart" file and change app link to redirect user to download the latest app on
+              force update</p>
+            <br><br>
+
+            <p><a class="popup-img" href="app_setup_images/app_link.png"><img class="img-fluid border"
+                  src="app_setup_images/app_link.png" alt=""></a></p>
+            <br><br>
+
+            <h2>Change Privacy policy url</h2>
+            <p>Go to "app_config_constants.dart" file and change privacy policy url that is needed in signup page</p>
+            <br><br>
+
+            <p><a class="popup-img" href="app_setup_images/privacy_policy.png"><img class="img-fluid border"
+                  src="app_setup_images/privacy_policy.png" alt=""></a></p>
+            <br><br>
+
+            <h2>Change app Terms of service url</h2>
+            <p>Go to "app_config_constants.dart" file and change terms of service that is needed in signup page</p>
+            <br><br>
+
+            <p><a class="popup-img" href="app_setup_images/terms_of_service.png"><img class="img-fluid border"
+                  src="app_setup_images/terms_of_service.png" alt=""></a></p>
+            <br><br>
+
+            <h2>Change color scheme</h2>
+            <li>Go to "theme.dart" file and change light and dark mode theme colors as shown in below screenshots</li>
+
+            <br><br>
+
+            <p><a class="popup-img" href="app_setup_images/theme_color.png"><img class="img-fluid border"
+                  src="app_setup_images/theme_color.png" alt=""></a></p>
+            <br><br>
+
+            <h2>Change localization strings</h2>
+            <li>Go to "resources" folder and change the required strings in required language file</li>
+
+            <br><br>
+
+            <p><a class="popup-img" href="app_setup_images/localization.png"><img class="img-fluid border"
+                  src="app_setup_images/localization.png" alt=""></a></p>
+            <br><br>
+
+          </section>
+          <hr class="divider">
+
+
+          <!-- Support
+		============================ -->
+          <section id="idocs_support">
+            <h2>Support</h2>
+            <p>If this documentation doesn't answer your questions, So, Please send us Email or contact via Skype. </p>
+            <p>
+              Email : sahilarun@gmail.com<br>
+              Instagram : <a href="https://instagram.com/notherhacker.exe>notherhacker.exe</a>
+
+
+
+            </p>
+            <p> We are located in GMT +5:30 time zone and we answer all questions within 12-24 hours in weekdays. In
+              some rare cases the waiting time can be to 48 hours. (except holiday seasons which might take longer).</p>
+            <div class="alert alert-warning mb-4"><span class="badge badge-danger text-uppercase">Note:</span> While we
+              aim to provide the best support possible, please keep in mind that it only extends to verified buyers and
+              only to issues related to our template like bugs and errors. Custom modifications or third party module
+              implementations are not included.</div>
+
+
+          </section>
+
+
+          <hr class="divider">
+
+
+          <!-- Changelog
+		============================ -->
+
+          <section id="idocs_changelog">
+            <h2>Changelog</h2>
+            <p class="text-4">See what's new added, changed, fixed, improved or updated in the latest versions. </p>
+              <h3 id="v1-7">Version 1.7 <small class="text-muted">(18 Jan, 2023)</small></h3>
+              <ul class="changelog">
+
+                  <li><span class="badge badge-success">Added</span> <b>Watch TV </b> : Tv Streaming</li>
+                  <li><span class="badge badge-success">Added</span> <b>Chat Encryption - Now your chat is encrypted</b>: Send gifts on live, user profile (Now available in regular licence)</li>
+                  <li><span class="badge badge-success">Added</span> <b>Club Enhancement </b> : Private and Join request based club, User can create private and join request based clubs and can invite the users</li>
+                  <li><span class="badge badge-success">Added</span> <b>Enable/Disable any feature from Admin panel </b> : Now you can remove any feature from app on run time from admin panel</li>
+
+                  <li><span class="badge badge-danger">Fixed</span>Reported issues fixed</li>
+
+              </ul>
+
+              <h3 id="v1-6">Version 1.6 <small class="text-muted">(30 Nov, 2022)</small></h3>
+            <ul class="changelog">
+            
+              <li><span class="badge badge-success">Added</span> <b>FAQ</b></li>
+              <li><span class="badge badge-success">Added</span> <b>Gifts</b>: Send gifts on live, user profile (Now available in regular licence)</li>
+              <li><span class="badge badge-success">Added</span> <b>Many more minor additions</b></li>
+              <li><span class="badge badge-danger">Fixed</span>Reported issues fixed</li>
+
+            </ul>
+            <h3 id="v1-5">Version 1.5 <small class="text-muted">(23 Nov, 2022)</small></h3>
+            <ul class="changelog">
+            
+              <li><span class="badge badge-success">Added</span> <b>Gifts</b>: Send gifts on live, user profile</li>
+              <li><span class="badge badge-success">Added</span> <b>Redeem Coin</b> : Redeem coins into cash</li>
+              <li><span class="badge badge-success">Added</span> <b>User verified tag</b> : Request account verification with blue tick</li>
+              <li><span class="badge badge-success">Added</span> <b>Azure Storage</b> : Now you can store files on microsoft Azure storage</li>
+              <li><span class="badge badge-success">Added</span> <b>Many more minor additions</b></li>
+              <li><span class="badge badge-danger">Fixed</span>5+ reported issues fixed</li>
+
+            </ul>
+
+
+            <h3 id="v1-4">Version 1.4 <small class="text-muted">(27 Oct, 2022)</small></h3>
+            <ul class="changelog">
+              <li><span class="badge badge-success">Added</span> <b>Competitions</b> : Join photo and video competition
+                to earn real money..</li>
+              <li><span class="badge badge-success">Added</span> <b>Random chat</b> : Random chat with online users</li>
+              <li><span class="badge badge-success">Added</span> <b>Clubs</b>: Create and join clubs and post in clubs
+              </li>
+              <li><span class="badge badge-success">Added</span> <b>Links in chat</b> : You can send link in chat now.
+              </li>
+              <li><span class="badge badge-success">Added</span> <b>In app purchase</b>: in app purchase to buy coins
+                for joining the competitions</li>
+              <li><span class="badge badge-success">Added</span> <b>Reward ads</b>: Rewarded ads to earn coins</li>
+              <li><span class="badge badge-success">Added</span> <b>Update chat group</b></li>
+              <li><span class="badge badge-success">Added</span> <b>Copy chat message</b></li>
+              <li><span class="badge badge-success">Added</span> <b>Live stream statistics </b></li>
+              <li><span class="badge badge-success">Added</span> <b>Pinch and zoom post image like Instagram</b></li>
+              <li><span class="badge badge-success">Added</span> <b>Unread message badge</b></li>
+              <li><span class="badge badge-success">Added</span> <b>Many more minor additions</b></li>
+              <li><span class="badge badge-danger">Fixed</span> 5+ issues fixed</li>
+
+            </ul>
+
+            <h3 id="v1-3">Version 1.3 <small class="text-muted">(10 Oct, 2022)</small></h3>
+            <ul class="changelog">
+              <li><span class="badge badge-success">Added</span> <b>Local Storage</b> : Added local storage, now you
+                choose to store file on local server or AWS S3 .</li>
+              <li><span class="badge badge-success">Added</span> <b>Group Chat</b> : Group chat is enabled for this
+                version.</li>
+
+
+              <li><span class="badge badge-success">Added</span> <b>Star messages</b></li>
+              <li><span class="badge badge-success">Added</span> <b>Links in chat</b> : You can send link in chat now.
+              </li>
+              <li><span class="badge badge-success">Added</span> <b>Search in chat history</b></li>
+              <li><span class="badge badge-success">Added</span> <b>Posting progress update in Home Screen</b></li>
+              <li><span class="badge badge-success">Added</span> <b>Retry /Discard failed post easily</b></li>
+              <li><span class="badge badge-success">Added</span> <b>Double tap to like</b></li>
+              <li><span class="badge badge-success">Added</span> <b>Pull to refresh</b></li>
+              <li><span class="badge badge-success">Added</span> <b>Mute/unmute audio in video post</b></li>
+              <li><span class="badge badge-success">Added</span> <b>Pip view for video call</b></li>
+              <li><span class="badge badge-success">Added</span> <b>Password strength checker</b></li>
+              <li><span class="badge badge-success">Added</span> <b>Mention users in comment</b></li>
+              <li><span class="badge badge-success">Added</span> <b>Share app with friends</b></li>
+              <li><span class="badge badge-success">Added</span> <b>Force update app</b> : Now app has abilty to force
+                user to install leatest released version.</li>
+              <li><span class="badge badge-danger">Fixed</span> Minor Issues</li>
+
+            </ul>
+
+
+
+            <h3 id="v1-1">Version 1.2 <small class="text-muted">(5 Oct, 2022)</small></h3>
+            <ul class="changelog">
+              <li><span class="badge badge-success">Added</span> <b>Ads</b> : Google admob and facebook audience network
+                is added.</li>
+              <li><span class="badge badge-success">Added</span> <b>Animated Splash</b> : Animated splash screen on the
+                start of the app.</li>
+              <li><span class="badge badge-success">Added</span> <b>Last seen</b> : Now you can view last seen of user
+                in chat screen.</li>
+              <li><span class="badge badge-success">Added</span> <b>Ask for review</b> : Now user can review and rete
+                your app.</li>
+              <li><span class="badge badge-success">Added</span> <b>Delete post</b> : Now user can delete own post.</li>
+              <li><span class="badge badge-danger">Fixed</span> Minor Issues</li>
+
+            </ul>
+
+            <h3 id="v1-1">Version 1.1 <small class="text-muted">(2 Oct, 2022)</small></h3>
+            <ul class="changelog">
+              <li><span class="badge badge-success">Added</span> <b>Share Drawing</b> : Now you can draw on drawing pad
+                and share it on chat with yours friends.</li>
+              <li><span class="badge badge-success">Added</span> <b>Share Profile</b> : Now you can share user profle on
+                chat with yours friends.</li>
+              <li><span class="badge badge-danger">Fixed</span> Live streaming issue</li>
+              <li><span class="badge badge-danger">Fixed</span> Minor UI </li>
+              <!--<li><span class="badge badge-info">Updated</span> FontAwesome to Latest Version</li>-->
+
+            </ul>
+
+
+            <h3 id="v1-0">Version 1.0 <small class="text-muted">(1 October 2022)</small></h3>
+            <p>Initial Release</p>
+          </section>
+          <p class="text-center">
+
+            <a class="btn btn-primary " target="_blank"
+              href="https://codecanyon.net/item/timeline-chat-calling-live-social-media-photo-video-sharing-app-iosandroidadmin-panel/39825646">Buy</a>
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+    <!-- Content end -->
+
+    <!-- Footer
+  ============================ -->
+    <footer id="footer" class="section bg-dark footer-text-light">
+      <div class="container">
+        <ul class="social-icons social-icons-lg social-icons-muted justify-content-center mb-3">
+          <li><a data-toggle="tooltip" href="#" title="" data-original-title="Twitter"><i
+                class="fab fa-twitter"></i></a></li>
+          <li><a data-toggle="tooltip" href="#" title="" data-original-title="Facebook"><i
+                class="fab fa-facebook-f"></i></a></li>
+          <li><a data-toggle="tooltip" href="#" title="" data-original-title="Dribbble"><i
+                class="fab fa-dribbble"></i></a></li>
+          <li><a data-toggle="tooltip" href="#" title="" data-original-title="GitHub"><i class="fab fa-github"></i></a>
+          </li>
+        </ul>
+
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+  </div>
+  <!-- Document Wrapper end -->
+
+  <!-- Back To Top -->
+  <a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i
+      class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript
+============================ -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Highlight JS -->
+  <script src="assets/vendor/highlight.js/highlight.min.js"></script>
+  <!-- Easing -->
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <!-- Magnific Popup -->
+  <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <!-- Custom Script -->
+  <script src="assets/js/theme.js"></script>
+</body>
+
+</html>

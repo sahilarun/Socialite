@@ -10,7 +10,6 @@ return [
     
     'siteMode' => 1, // 1 for live, 2 for testing , 3 demo
     'siteUrl' => 'http://example.com',// domain here
-    'enventoPurchaseCode' => '##########', // envato purchase code
     'storageSystem'=> 1,//  storage system ( local storage =1, AWS S3=2, AZURE=3)
     's3' => [
         'key' => '##############',
